@@ -179,6 +179,22 @@ onUnmounted(() => {
     color: #ffffff;
     font-size: 18px;
 
+    // 平板设备
+    @media (max-width: 768px) {
+      width: 100%;
+      max-width: none;
+      font-size: 16px; // 防止iOS自动缩放
+      padding: 8px 50px; // 左右留出按钮空间
+    }
+
+    // 手机设备
+    @media (max-width: 480px) {
+      width: 100%;
+      max-width: none;
+      font-size: 16px; // 防止iOS自动缩放
+      padding: 8px 50px; // 左右留出按钮空间
+    }
+
     line-height: 18px;
     text-align: center;
     //鼠标hover
