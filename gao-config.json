@@ -1,0 +1,136 @@
+{
+	"version": "1.0.0",
+	"name": "Gao Index 配置",
+	"description": "工具箱浏览器主页配置文件",
+	"created": "2025-01-12T00:00:00Z",
+	"updated": "2025-01-12T00:00:00Z",
+	"searchEngines": {
+		"default": "bing",
+		"engines": [{
+				"id": "bing",
+				"name": "Bing",
+				"baseUrl": "https://cn.bing.com/search?form=QBLH&q=",
+				"icon": "https://cn.bing.com/favicon.ico",
+				"enabled": true,
+				"category": "search"
+			},
+			{
+				"id": "baidu",
+				"name": "Baidu",
+				"baseUrl": "https://www.baidu.com/s?wd=",
+				"icon": "https://www.baidu.com/favicon.ico",
+				"enabled": true,
+				"category": "search"
+			},
+			{
+				"id": "google",
+				"name": "Google",
+				"baseUrl": "https://www.google.com/search?q=",
+				"icon": "https://www.google.com/favicon.ico",
+				"enabled": true,
+				"category": "search"
+			},
+			{
+				"id": "github",
+				"name": "Github",
+				"baseUrl": "https://github.com/search?q=",
+				"icon": "https://github.com/favicon.ico",
+				"enabled": true,
+				"category": "development"
+			},
+			{
+				"id": "csdn",
+				"name": "Csdn",
+				"baseUrl": "https://so.csdn.net/so/search?q=",
+				"icon": "https://csdn.net/favicon.ico",
+				"enabled": true,
+				"category": "development"
+			},
+			{
+				"id": "Tencent-cloud",
+				"name": "Tecent-cloud",
+				"baseUrl": "https://cloud.tencent.com/developer/search/article-",
+				"icon": "https://cloud.tencent.com/favicon.ico",
+				"enabled": true,
+				"category": "development"
+			},
+			{
+				"id": "bilibili",
+				"name": "Bilibili",
+				"baseUrl": "https://search.bilibili.com/all?keyword=",
+				"icon": "https://www.bilibili.com/favicon.ico",
+				"enabled": true,
+				"category": "video"
+			},
+			{
+				"id": "youtube",
+				"name": "YouTube",
+				"baseUrl": "https://www.youtube.com/results?search_query=",
+				"icon": "https://www.youtube.com/favicon.ico",
+				"enabled": true,
+				"category": "video"
+			},
+			{
+				"id": "zhihu",
+				"name": "Zhihu",
+				"baseUrl": "https://www.zhihu.com/search?type=content&q=",
+				"icon": "https://www.zhihu.com/favicon.ico",
+				"enabled": true,
+				"category": "community"
+			}, {
+				"id": "juejin",
+				"name": "Juejin",
+				"baseUrl": "https://juejin.cn/search?query=",
+				"icon": "https://juejin.cn/favicon.ico",
+				"enabled": true,
+				"category": "community"
+			}, {
+				"id": "bing-images",
+				"name": "Bing Images",
+				"baseUrl": "https://www.bing.com/images/search?q=",
+				"icon": "https://www.bing.com/favicon.ico",
+				"enabled": true,
+				"category": "image"
+			},
+			{
+				"id": "google-images",
+				"name": "Google Images",
+				"baseUrl": "https://www.google.com/search?tbm=isch&q=",
+				"icon": "https://www.google.com/favicon.ico",
+				"enabled": true,
+				"category": "image"
+			},
+			{
+				"id": "baidu-images",
+				"name": "Baidu Images",
+				"baseUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=",
+				"icon": "https://www.baidu.com/favicon.ico",
+				"enabled": true,
+				"category": "image"
+			}
+		]
+	},
+	"tools": [],
+	"categories": {
+		"search": {
+			"name": "搜索引擎",
+			"icon": "🔍",
+			"description": "各种搜索引擎"
+		},
+		"development": {
+			"name": "开发工具",
+			"icon": "💻",
+			"description": "编程开发相关工具"
+		}
+	},
+	"ui": {
+		"theme": "auto",
+		"language": "zh-CN",
+		"layout": {
+			"showTime": true,
+			"showLoginButton": true,
+			"backgroundImage": "/assets/backgroundImg/bg1.webp",
+			"searchPlaceholder": "搜索"
+		}
+	}
+}
