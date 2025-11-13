@@ -1,0 +1,20 @@
+/*导入字体*/
+@font-face {
+  font-family: 'Itim';
+  src: url("@/assets/Itim-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+/*全局基础样式*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', serif;
+}
+
+.button-text {
+  color: #fff;
+}
+
+

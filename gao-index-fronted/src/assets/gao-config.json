@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "Gao Index 配置",
+  "description": "工具箱浏览器主页配置文件",
+  "searchEngines": {
+    "default": "bing",
+    "engines": [
+      {
+        "id": "bing",
+        "name": "Bing",
+        "baseUrl": "https://cn.bing.com/search?form=QBLH&q="
+      },
+      {
+        "id": "baidu",
+        "name": "Baidu",
+        "baseUrl": "https://www.baidu.com/s?wd="
+      },
+      {
+        "id": "google",
+        "name": "Google",
+        "baseUrl": "https://www.google.com/search?q="
+      },
+      {
+        "id": "github",
+        "name": "Github",
+        "baseUrl": "https://github.com/search?q="
+      },
+      {
+        "id": "bilibili",
+        "name": "Bilibili",
+        "baseUrl": "https://search.bilibili.com/all?keyword="
+      }
+    ]
+  }
+}
